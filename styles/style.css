@@ -1,0 +1,264 @@
+html,body {
+
+    padding: 0px;
+    margin: 0px;
+    font-size: small;
+    font-family: Arial , sans-serif;
+}
+
+/* Styling Horizontal Navbar */
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    margin-right:45px;
+    margin-top:12px;
+}
+
+nav ul li {
+    float: right;
+    
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 12px;
+    margin-left: -5px;
+    color:#222;
+}
+
+/* Styling sign up button */
+
+a#special-button {
+    background-color:#4285f4;
+    color:white;
+    padding:8px 13px;
+    font-weight: bold;
+    margin-top:5px;
+    position:relative;
+    left:13px;
+    bottom:1px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+i {
+    color:dimgrey;
+}
+
+/* Adding hover effects */
+
+nav ul li a:hover {
+    
+    text-decoration: underline;
+    color:dimgray;
+}
+
+/* Special hover effect for th button */
+
+i:hover {
+    color:#222;
+}
+
+/* Special hover effect for Sign Up button */
+
+a#special-button:hover {
+    cursor: default;
+    text-decoration: none;
+}
+
+
+/* Clearing floats */
+
+nav::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/*Centering Google's Logo */
+
+.google-logo img {
+    display: block;
+    margin:147px auto 0 auto;
+}
+
+/* Centering search box and after that styling it */
+
+input[type="text"] {
+
+    display: block;
+    margin: 28px auto 10px auto;
+    width: 43%;
+    background:transparent;
+    border:1px solid rgb(209, 209, 209);
+    height:33px;
+    box-shadow: 0px 1px 2px 0.1px gray;
+    padding:5px;
+    text-indent: 10px;
+
+    /* Adding mic background at the end right of the search box */
+    background-image: url("../images/micro.png");
+    background-repeat:no-repeat;
+    background-position: right center;
+    background-size:40px 40px;
+    
+    
+}
+
+
+/* Centering buttons */
+
+.buttons {
+    text-align: center;
+    padding-right:10px;
+}
+
+/* Styling buttons */
+
+.btn {
+    display: inline-block;
+    width:130px;
+    height:40px;
+    margin:20px 4px 0px 2px;
+    font-weight: bold;
+    text-align: center;
+    border:0;
+    color:rgb(121, 121, 121);
+    font-size:13px;
+    border-radius: 2px;
+    
+}
+
+
+/* Adding hover effect */
+
+
+button:hover {
+    color:black;
+    border:1px solid rgb(182, 182, 182);
+    background-color:rgb(238, 238, 238);
+}
+
+
+/* Centering translation paragraph */
+
+.translation p {
+    text-align:center;
+    margin-top:25px;
+}
+
+.translation p a {
+    color:blue;
+    text-decoration: none;
+}
+
+.translation p a:hover {
+    text-decoration: underline;
+}
+
+
+div.country p {
+    background-color: rgb(241, 241, 241);
+    height:20px;
+    padding:10px;
+    border-top:1px solid lightgray;
+    border-bottom:1px solid lightgray;
+    font-size:1.2em;
+    margin:85px 0px 0px 0px;
+    color:rgba(58, 58, 58, 0.7);
+}
+
+span {
+    margin-left:17px;
+}
+
+
+/* Notice that background color , doesn't appear. That's because we haven't cleared floats 
+    yet */
+
+footer {
+    background-color: rgb(241, 241, 241);
+    margin-top:0px;
+
+}
+
+
+
+/* Styling right part of the footer */
+
+        
+
+.left-footer ul {
+    list-style-type: none;
+    padding:0;
+    margin:0 0 0 10px;
+}
+
+
+
+.left-footer ul li  {
+    float:left;
+}
+
+.left-footer ul li a {
+    text-decoration: none;
+    display:block;
+    text-align:center;
+    margin:12px 7px 0px 20px;
+    color:rgba(36, 36, 36, 0.8);
+}
+
+/* Styling right part of the footer */
+
+.right-footer ul {
+    list-style-type: none;
+    padding:0;
+    margin:0 10px 0 0;
+}
+
+
+
+
+.right-footer ul li  {
+    float:right;
+}
+
+
+.right-footer ul li a {
+    text-decoration: none;
+    display:block;
+    text-align:center;
+    margin:12px 20px 0px 7px;
+    color:rgba(36, 36, 36, 0.8);
+}
+
+.left-footer a:hover , .right-footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* Clearing floats , so that background-color of footer appears */
+
+
+footer::after {
+    content: "";
+    display: block;
+    clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

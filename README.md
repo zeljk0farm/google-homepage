@@ -1,0 +1,1 @@
+We are going to make a replicate of the Google Homepage , so we can test and apply what we've learned from the HTML and CSS chapter. Also , we'll use some git commands from the basic git workflow and finally upload our project to GitHub.
